@@ -185,7 +185,6 @@ function findOptimalOffset(resampledCsv, resampledXml) {
     return bestOffset;
 }
 
-// ✅ CORRECTED: This merge logic is robust and finds the closest corresponding data points.
 function mergeData(resampledCsv, resampledXml, offset) {
     const merged = [];
     const csvTime = resampledCsv.time;
